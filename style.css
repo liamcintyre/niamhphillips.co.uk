@@ -1,0 +1,23 @@
+
+body {
+	font-family:timesnewroman;
+	font-size:18px;
+	color:blue;
+}
+
+
+a {
+	color: red;
+}
+
+
+a:hover {
+	color: blue;
+}	
+
+@media (max-width:600px) {
+ body {
+    font-size:36px;
+  }
+}
+
