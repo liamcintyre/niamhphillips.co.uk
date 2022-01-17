@@ -1,19 +1,47 @@
+body{
 
-body {
-	font-family:timesnewroman;
-	font-size:18px;
-	color:black;
+  color: #0074d9;
+  font-size: 18px;
+  margin: 30px;
+  background-image: url(logo-yellow.svg);
+  background-size: 80vw;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
 
 }
 
+header {
+ 	display: block; 
+  position: fixed;
+  width: 100vw;
+ 	}
 
-a:hover {
-	color: blue;
-}	
-
-@media (max-width:600px) {
- body {
-    font-size:36px;
-  }
+section { 
+	width: 100vw;
 }
+
+.vh1 {
+  height: 100vh;
+}
+
+p {
+  display: block;
+  float: left;
+ 
+}
+
+a {
+  color: red;
+  display: block;
+  float: right;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #0074d9;
+}
+
 
