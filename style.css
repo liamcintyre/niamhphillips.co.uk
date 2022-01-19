@@ -40,8 +40,10 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  color: #0074d9;
+@media (hover: hover) {
+  a:hover {
+    color: #0074d9; /* solves sticky problem */
+  }
 }
 
 
