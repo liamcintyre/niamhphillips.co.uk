@@ -19,7 +19,11 @@ header {
  	}
 
 section { 
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 3f0819afc5fb5e4225de9e602ed519b231a6ec67
 }
 
 .vh1 {
@@ -40,8 +44,10 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  color: #0074d9;
+@media (hover: hover) {
+  a:hover {
+    color: #0074d9; /* solves sticky problem */
+  }
 }
 
 
