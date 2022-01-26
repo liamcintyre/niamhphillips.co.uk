@@ -19,11 +19,11 @@ header {
  	}
 
 section { 
-	width: 100vw;
+
 }
 
 .vh1 {
-  height: 100vh;
+  height: 100%;
 }
 
 p {
@@ -34,9 +34,9 @@ p {
 
 a {
   color: red;
-  display: block;
+  
   float: right;
-  margin-right: 60px;
+  
   text-decoration: none;
 }
 
