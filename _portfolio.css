@@ -1,0 +1,42 @@
+body {
+  color: #0074d9;
+  font-size: 18px;
+  Margin: 30px;
+  background-color: #ffffff;
+  
+}
+
+header {
+  display: block;
+  position: relative;
+  
+}
+
+header img {
+  max-height: 72px;
+}
+
+p {
+  display: block;
+  float: left;
+}
+
+a {
+  color: red;
+  display: block;
+  float: right;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: #0074d9; /* solves sticky problem */
+  }
+}
+
+img {
+Margin:30px auto 0 auto;
+}
+
+
+
